@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "accept only served-minted cookies",
+  "ABSTRACT" => "accept only server-minted cookies",
   "AUTHOR" => "Aristotle Pagaltzis <pagaltzis\@gmx.de>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -36,7 +36,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.000",
+  "VERSION" => "1.100",
   "test" => {
     "TESTS" => "t/*.t"
   }

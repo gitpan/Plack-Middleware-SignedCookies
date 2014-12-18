@@ -1,4 +1,7 @@
 Revision history for Plack-Middleware-SignedCookies
 
+1.100 Thu 18 Dec 2014
+	- Added support for forcing the secure and HttpOnly flags on all cookies.
+
 1.000 Wed 17 Dec 2014
 	- Initial release.

@@ -1,5 +1,5 @@
 ---
-abstract: 'accept only served-minted cookies'
+abstract: 'accept only server-minted cookies'
 author:
   - 'Aristotle Pagaltzis <pagaltzis@gmx.de>'
 build_requires:
@@ -30,4 +30,4 @@ resources:
   bugtracker: http://github.com/ap/Plack-Middleware-SignedCookies/issues
   homepage: http://github.com/ap/Plack-Middleware-SignedCookies
   repository: git://github.com/ap/Plack-Middleware-SignedCookies
-version: 1.000
+version: 1.100

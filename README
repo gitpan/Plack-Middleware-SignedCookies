@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Plack-Middleware-SignedCookies,
-version 1.000:
+version 1.100:
 
-  accept only served-minted cookies
+  accept only server-minted cookies
 
 This software is copyright (c) 2014 by Aristotle Pagaltzis.
 

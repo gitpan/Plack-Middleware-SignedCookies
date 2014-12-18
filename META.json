@@ -1,5 +1,5 @@
 {
-   "abstract" : "accept only served-minted cookies",
+   "abstract" : "accept only server-minted cookies",
    "author" : [
       "Aristotle Pagaltzis <pagaltzis@gmx.de>"
    ],
@@ -52,6 +52,6 @@
          "url" : "git://github.com/ap/Plack-Middleware-SignedCookies"
       }
    },
-   "version" : "1.000"
+   "version" : "1.100"
 }
 
