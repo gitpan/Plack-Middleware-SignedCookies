@@ -1,5 +1,5 @@
 package Plack::Middleware::SignedCookies;
-$Plack::Middleware::SignedCookies::VERSION = '1.100';
+$Plack::Middleware::SignedCookies::VERSION = '1.101';
 use 5.010;
 use strict;
 use parent 'Plack::Middleware';
@@ -60,7 +60,7 @@ Plack::Middleware::SignedCookies - accept only server-minted cookies
 
 =head1 VERSION
 
-version 1.100
+version 1.101
 
 =head1 SYNOPSIS
 

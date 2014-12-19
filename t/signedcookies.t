@@ -31,7 +31,7 @@ sub parse_cookies {
 	return ( $junk, %c );
 }
 
-sub count_flags { my $n = 0; $n += $_ for map { $_->{ $_[0] } // () } values $_[1]; $n }
+sub count_flags { my $n = 0; $n += $_ for map { $_->{ $_[0] } // () } values %{ $_[1] }; $n }
 
 test_psgi app => $mw->to_app, client => sub {
 	my $cb = shift;

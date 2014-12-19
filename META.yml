@@ -30,4 +30,4 @@ resources:
   bugtracker: http://github.com/ap/Plack-Middleware-SignedCookies/issues
   homepage: http://github.com/ap/Plack-Middleware-SignedCookies
   repository: git://github.com/ap/Plack-Middleware-SignedCookies
-version: 1.100
+version: 1.101
