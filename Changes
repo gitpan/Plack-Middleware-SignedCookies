@@ -1,5 +1,8 @@
 Revision history for Plack-Middleware-SignedCookies
 
+1.102 Sun 04 Jan 2015
+	- Turned on warnings.
+
 1.101 Fri 19 Dec 2014
 	- Fixed accidental reliance of a test on autoderef misfeature in newer
 	  perls. No module code changes.

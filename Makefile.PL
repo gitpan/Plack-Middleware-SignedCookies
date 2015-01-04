@@ -26,17 +26,19 @@ my %WriteMakefileArgs = (
     "Plack::Util" => 0,
     "Plack::Util::Accessor" => 0,
     "parent" => 0,
-    "strict" => 0
+    "strict" => 0,
+    "warnings" => 0
   },
   "TEST_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
     "HTTP::Request::Common" => 0,
     "Plack::Builder" => 0,
     "Plack::Request" => 0,
     "Plack::Test" => 0,
-    "Test::More" => 0,
-    "warnings" => 0
+    "Test::More" => 0
   },
-  "VERSION" => "1.101",
+  "VERSION" => "1.102",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -46,6 +48,8 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Digest::SHA" => 0,
   "ExtUtils::MakeMaker" => 0,
+  "File::Find" => 0,
+  "File::Temp" => 0,
   "HTTP::Request::Common" => 0,
   "Plack::Builder" => 0,
   "Plack::Middleware" => 0,
